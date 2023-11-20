@@ -21,7 +21,7 @@ export default function Languages(){
             </div>
             <div className="french">
                 <h2>French</h2>
-                <p>I sturted to study it when I was 11, and in 2021 I passed the DELF B2 exam</p>
+                <p>I started to study it when I was 11, and in 2021 I passed the DELF B2 exam</p>
             </div>
         </div>
     </>

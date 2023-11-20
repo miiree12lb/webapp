@@ -191,8 +191,8 @@ export default function Achievements(){
             <div className="overview">
                 <div className="content">
                     <h3>Monnatura Pirineus</h3>
-                    <h4>Catalan Pyrenees</h4>
                     <h4>First summer (2021)</h4>
+                    <h4>Catalan Pyrenees</h4>
                     <p>
                         I was one of 12 candidates selected to participate in the program: 'Looking from the Sky: How Does Climate Change 
                         Affect Our Forests?'.
@@ -203,7 +203,7 @@ export default function Achievements(){
                 <div className="content">
                     <h3><a href="http://essyi.hws.edu/">ESSYI</a></h3>
                     <h4>Second summer (2022)</h4>
-                    <h4>Geneva, NY</h4>
+                    <h4>Geneva, NY, USA</h4>
                     <p>
                         I was 1 of the 46 selected studies into the 2 week summer course in environmental science through scientific, social, 
                         economic, philosophical, ethical, and political perspectives.
