@@ -1,0 +1,45 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
+import Home from "./Home.tsx";
+import Experience from "./Experience.tsx";
+import Languages from "./Language.tsx";
+import Education from "./Education.tsx";
+import Contact from "./Contact.tsx";
+import Achievements from "./Achievements.tsx";
+import Article from "./Article.tsx";
+import Navbar from "./Navbar.tsx";
+// @ts-ignore
+import './css/root.css';
+
+function Root() {
+    return (<BrowserRouter>
+        <div id="nav">
+            <Navbar />
+        </div>
+
+        <div id="view">
+            <div id="route">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/experience" element={<Experience />} />
+                    <Route path="/languages" element={<Languages />} />
+                    <Route path="/education" element={<Education />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/achievements" element={<Achievements />} />
+                    <Route path="/article" element={<Article />} />
+                </Routes>
+            </div>
+
+            <div id="footer">
+                
+            </div>
+        </div>
+
+    </BrowserRouter>);
+}
+
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  createRoot(rootElement).render(<Root />);
+}
