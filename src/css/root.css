@@ -115,6 +115,7 @@ li > a{
     background-color: #151515;
     position: -webkit-sticky;
     position: sticky;
+    padding-bottom: 10px;
 }
 
 .text_container{
