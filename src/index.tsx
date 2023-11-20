@@ -11,6 +11,7 @@ import Article from "./Article.tsx";
 import Navbar from "./Navbar.tsx";
 // @ts-ignore
 import './css/root.css';
+import Footer from "./Footer.tsx";
 
 function Root() {
     return (<BrowserRouter>
@@ -32,7 +33,7 @@ function Root() {
             </div>
 
             <div id="footer">
-                
+                <Footer />
             </div>
         </div>
 
@@ -41,5 +42,5 @@ function Root() {
 
 const rootElement = document.getElementById("root");
 if (rootElement) {
-  createRoot(rootElement).render(<Root />);
+    createRoot(rootElement).render(<Root />);
 }

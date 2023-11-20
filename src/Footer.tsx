@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 //@ts-ignore
-import instagram from "../assets/images/socials/instagram.svg";
+import instagram from "./assets/images/socials/instagram.svg";
 //@ts-ignore
-import linkedin from "../assets/images/socials/linkedin.svg";
+import linkedin from "./assets/images/socials/linkedin.svg";
 //@ts-ignore
-import linktree from "../assets/images/socials/linktree.png";
-// @ts-ignore
-import logo from "../assets/images/logo.png";
+import linktree from "./assets/images/socials/linktree.png";
 
 export default function Footer(){
     return (
