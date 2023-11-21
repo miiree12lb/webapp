@@ -126,3 +126,23 @@ li > a{
 	display: flex;
 	justify-content: space-between;
 }
+
+
+#memes {
+    width: 33%;
+}
+
+@media screen and (max-width: 800px) {
+    .flex {
+        flex-direction: column;
+    }
+    .text_container {
+        order: 1;
+        width: 100%;
+    }
+
+    .image_slider_container {
+        order: 2;
+        width: 100%;
+    }
+}

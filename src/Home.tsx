@@ -81,7 +81,7 @@ export default function Home(){
                         share our different cultures and ways of understanding the world. Which has helped me be much more open minded.
                     </p>
                 </div>
-                <div>
+                <div className="image_slider_container">
                     <ImageSlider
                         width={696}
                         height={504}
@@ -96,7 +96,7 @@ export default function Home(){
         <div className="section" id="football">
             <h2>Football</h2>
             <div className="flex">
-                <div>
+                <div className="image_slider_container">
                     <ImageSlider
                         width={696}
                         height={504}
@@ -145,7 +145,7 @@ export default function Home(){
                         </ul>
                     </p>
                 </div>
-                <div>
+                <div className="image_slider_container">
                     <ImageSlider
                         width={696}
                         height={504}

@@ -42,3 +42,14 @@
 #link:hover{
     color:#FF4136;
 }
+
+@media screen and (max-width: 950px) {
+    .overview {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
