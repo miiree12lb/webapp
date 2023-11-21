@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 import Home from "./Home.tsx";
 import Experience from "./Experience.tsx";
 import Languages from "./Language.tsx";
@@ -14,7 +14,7 @@ import './css/root.css';
 import Footer from "./Footer.tsx";
 
 function Root() {
-    return (<BrowserRouter>
+    return (<HashRouter>
         <div id="nav">
             <Navbar />
         </div>
@@ -37,7 +37,7 @@ function Root() {
             </div>
         </div>
 
-    </BrowserRouter>);
+    </HashRouter>);
 }
 
 const rootElement = document.getElementById("root");
