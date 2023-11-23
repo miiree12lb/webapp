@@ -169,7 +169,7 @@ export default function Article(){
             use and the management needed, the use of pesticides and fertilizers, the species of vegetation in the urban
             forest, the amount of wood, the planting strategies, etc. All these factors are discussed in the next section.
         </p>
-        <div style={{ textAlign: 'center' }}><img alt="table1" src={table1} /></div>
+        <div className="article_image"><img alt="table1" src={table1} /></div>
         <h3>3.2. Factors controlling the capture of CO2 by urban forest</h3>
         <p>
             The analysis of the different cases studies has raised some important factors controlling the capture
@@ -267,7 +267,7 @@ export default function Article(){
             to traffic pollution. These studies have analyzed the effect of carbon dioxide concentration in the air on the
             growth of urban forests.
         </p>
-        <div style={{ textAlign: 'center' }}><img alt="table2" src={table2} /></div>
+        <div className="article_image"><img alt="table2" src={table2} /></div>
         <p>
             There are several factors that can affect tree growth in cities and can be classified into three groups:
             factors related to pollution (air pollutants), factors related to the management (location of the vegetated area),
@@ -391,14 +391,14 @@ export default function Article(){
         </p>
         <p>
             Lin, J., Kroll, C. N., Nowak, D. J., & Greenfield, E. J. (2019). A review of urban forest modeling: 
-            Implications for management and future research. Urban Forestry and Urban Greening, 43(June). 
-            <a className="link" href="https://doi.org/10.1016/j.ufug.2019.126366">https://doi.org/10.1016/j.ufug.2019.126366</a>
+            Implications for management and future research. Urban Forestry and Urban Greening, 
+            43(June). <a className="link" href="https://doi.org/10.1016/j.ufug.2019.126366">https://doi.org/10.1016/j.ufug.2019.126366</a>
         </p>
         <p>
             Locosselli, G. M., Camargo, E. P. de, Moreira, T. C. L., Todesco, E., Andrade, M. de F., André, C. D. S. de, 
             André, P. A. de, Singer, J. M., Ferreira, L. S., Saldiva, P. H. N., & Buckeridge, M. S. (2019). The role of
-            air pollution and climate on the growth of urban trees. Science of the Total Environment, 666, 652–661. 
-            <a className="link" href="https://doi.org/10.1016/j.scitotenv.2019.02.291">https://doi.org/10.1016/j.scitotenv.2019.02.291</a>
+            air pollution and climate on the growth of urban trees. Science of the Total Environment, 666, 
+            652-661. <a className="link" href="https://doi.org/10.1016/j.scitotenv.2019.02.291">https://doi.org/10.1016/j.scitotenv.2019.02.291</a>
         </p>
         <p>
             Moser-Reischl, A., Rötzer, T., Biber, P., Ulbricht, M., Uhl, E., Qu, L., Koike, T., & Pretzsch, H. (2019). 
@@ -426,8 +426,8 @@ export default function Article(){
         </p>
         <p>
             Nowak, D. J., Hirabayashi, S., Bodine, A., & Greenfield, E. (2014). Tree and forest effects on air quality and 
-            human health in the United States. Environmental Pollution, 193, 119-129. 
-            <a className="link" href="https://doi.org/10.1016/j.envpol.2014.05.028">https://doi.org/10.1016/j.envpol.2014.05.028</a>
+            human health in the United States. Environmental Pollution, 193, 
+            119-129. <a className="link" href="https://doi.org/10.1016/j.envpol.2014.05.028">https://doi.org/10.1016/j.envpol.2014.05.028</a>
         </p>
         <p>
             Pelkowski, J. (2007). El Albedo Terrestre. In Revista de la Academia Colombiana de ciencias exactas, 
@@ -445,14 +445,14 @@ export default function Article(){
         </p>
         <p>
             Soares, A. L., Rego, F. C., McPherson, E. G., Simpson, J. R., Peper, P. J., & Xiao, Q. (2011). Benefits and 
-            costs of street trees in Lisbon, Portugal. Urban Forestry and Urban Greening, 10(2), 69-78. 
-            <a className="link" href="https://doi.org/10.1016/j.ufug.2010.12.001">https://doi.org/10.1016/j.ufug.2010.12.001</a>
+            costs of street trees in Lisbon, Portugal. Urban Forestry and Urban Greening, 10(2), 
+            69-78. <a className="link" href="https://doi.org/10.1016/j.ufug.2010.12.001">https://doi.org/10.1016/j.ufug.2010.12.001</a>
         </p>
         <p>
             Vasconcellos, T. J. de, Tomazello-Filho, M., & Callado, C. H. (2019). Dendrochronology and 
             dendroclimatology of Ceiba speciosa (A. St.-Hil.) Ravenna (Malvaceae) exposed to urban pollution in 
-            Rio de Janeiro city, Brazil. Dendrochronologia, 53(December 2018), 104-113. 
-            <a className="link" href="https://doi.org/10.1016/j.dendro.2018.12.004">https://doi.org/10.1016/j.dendro.2018.12.004</a>
+            Rio de Janeiro city, Brazil. Dendrochronologia, 53(December 2018), 
+            104-113. <a className="link" href="https://doi.org/10.1016/j.dendro.2018.12.004">https://doi.org/10.1016/j.dendro.2018.12.004</a>
         </p>
         <p>
             Walters, M., & Sinnett, D. (2021). Achieving tree canopy cover targets: A case study of Bristol, UK. Urban 

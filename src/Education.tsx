@@ -127,13 +127,15 @@ export default function Education(){
         <h2>University of Twente</h2>
         <h3>2022-current</h3>
         <div className="flex">
-            <ImageSlider
-                width={696}
-                height={504}
-                images={twente_images}
-                showBullets={true}
-                showNavs={true}
-            />
+            <div className="image_slider_container">
+                <ImageSlider
+                    width={696}
+                    height={504}
+                    images={twente_images}
+                    showBullets={true}
+                    showNavs={true}
+                />
+            </div>
             <div className="text_container">
                 <p>
                     I am majoring in Technical Computer Science (TCS) at the University of Twente, in Enschede, The Netherlands.
@@ -173,7 +175,7 @@ export default function Education(){
                     Below you can read more about my experience in the school.
                 </p>
             </div>
-            <div>
+            <div className="image_slider_container">
                 <ImageSlider
                     width={696}
                     height={504}
