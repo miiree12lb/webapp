@@ -14,7 +14,7 @@
     padding: 60px 80px;
 }
 
-input[type=text], input[type=email], button, textarea {
+form > input[type=text], form > input[type=email], form > button, form > textarea {
     width: 100%;
     border-radius: 10px;
 }

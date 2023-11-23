@@ -10,7 +10,7 @@ export default function Contact(){
                 <div id="form">
                     <h2>Send a message!</h2>
                 
-                    <form target="_blank" action="https://formsubmit.co/mireia.lopez.bruch@gmail.com" method="POST">
+                    <form target="_blank" action="https://formsubmit.co/48948502f7102889a4911f12ab0a0a90" method="POST">
                         <label htmlFor="firstName">First Name</label>
                         <input type="text"id="firstName"name="First Name:" required />
 
