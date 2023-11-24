@@ -9,6 +9,7 @@ import Contact from "./Contact.tsx";
 import Achievements from "./Achievements.tsx";
 import Article from "./Article.tsx";
 import Navbar from "./Navbar.tsx";
+import PhoneNavbar from "./PhoneNavbar.tsx";
 // @ts-ignore
 import './css/root.css';
 import Footer from "./Footer.tsx";
@@ -17,6 +18,10 @@ function Root() {
     return (<HashRouter>
         <div id="nav">
             <Navbar />
+        </div>
+
+        <div id="phone_nav">
+            <PhoneNavbar />
         </div>
 
         <div id="view">
