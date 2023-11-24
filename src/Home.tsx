@@ -82,13 +82,24 @@ export default function Home(){
                     </p>
                 </div>
                 <div className="image_slider_container">
-                    <ImageSlider
-                        width={696}
-                        height={504}
-                        images={travel_images}
-                        showBullets={true}
-                        showNavs={true}
-                    />
+                    <div className="big_slider">
+                        <ImageSlider
+                            width={500}
+                            height={362}
+                            images={travel_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                    <div className="small_slider">
+                        <ImageSlider
+                            width={300}
+                            height={217}
+                            images={travel_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,13 +108,25 @@ export default function Home(){
             <h2>Football</h2>
             <div className="flex">
                 <div className="image_slider_container">
-                    <ImageSlider
-                        width={696}
-                        height={504}
-                        images={football_images}
-                        showBullets={true}
-                        showNavs={true}
-                    />
+                    <div className="big_slider">
+                        <ImageSlider
+                            width={500}
+                            height={362}
+                            images={football_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                    <div className="small_slider">
+                        <ImageSlider
+                            width={300}
+                            height={217}
+                            images={football_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                        
                 </div>
                 <div className="text_container">
                     <p>
@@ -146,13 +169,24 @@ export default function Home(){
                     </p>
                 </div>
                 <div className="image_slider_container">
-                    <ImageSlider
-                        width={696}
-                        height={504}
-                        images={science_images}
-                        showBullets={true}
-                        showNavs={true}
-                    />
+                    <div className="big_slider">
+                        <ImageSlider
+                            width={500}
+                            height={362}
+                            images={science_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                    <div className="small_slider">
+                        <ImageSlider
+                            width={300}
+                            height={217}
+                            images={science_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -188,8 +222,8 @@ export default function Home(){
                 <div id="memes" className="content">
                     <h3>Cool Nerdy Memes</h3>
                     <ImageSlider
-                        width={350}
-                        height={350}
+                        width={300}
+                        height={300}
                         images={memes}
                         showBullets={true}
                         showNavs={true}

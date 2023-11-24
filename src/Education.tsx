@@ -129,8 +129,8 @@ export default function Education(){
         <div className="flex">
             <div className="image_slider_container">
                 <ImageSlider
-                    width={696}
-                    height={504}
+                    width={500}
+                    height={362}
                     images={twente_images}
                     showBullets={true}
                     showNavs={true}
@@ -177,8 +177,8 @@ export default function Education(){
             </div>
             <div className="image_slider_container">
                 <ImageSlider
-                    width={696}
-                    height={504}
+                    width={500}
+                    height={362}
                     images={aula_images}
                     showBullets={true}
                     showNavs={true}
