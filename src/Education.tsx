@@ -52,8 +52,8 @@ export default function Education(){
             <table className="table">
                 <thead>
                     <tr>
-                        <th><h3>Subject</h3></th>
-                        <th><h3>Grade</h3></th>
+                        <th><h4>Subject</h4></th>
+                        <th><h4>Grade</h4></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -117,6 +117,61 @@ export default function Education(){
             (around 25%) and an external assessment (around 75%). In addition to this, there is the IB core: CAS (Creativity, Action, and Service),
             ToK (Theory of Knowledge), and the Extended Essay. From the IB Core the student can obtain 3 points.
         </p>
+
+        <p>
+            Here's an overview of the subjects that I took, their respective level and the grade I obtained during the exam sessions on may 2022.
+        </p>
+        <table className="table">
+            <thead>
+                <tr>
+                    <th><h4>Subject</h4></th>
+                    <th><h4>Level</h4></th>
+                    <th><h4>Grade</h4></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Catalan</td>
+                    <td>A HL</td>
+                    <td>5/7</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>B SL</td>
+                    <td>6/7</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>HL</td>
+                    <td>7/7</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>AA HL</td>
+                    <td>5/7</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>HL</td>
+                    <td>5/7</td>
+                </tr>
+                <tr>
+                    <td>Philosophy</td>
+                    <td>SL</td>
+                    <td>5/7</td>
+                </tr>
+                <tr>
+                    <td>Core</td>
+                    <td></td>
+                    <td>1/3</td>
+                </tr>
+                <tr>
+                    <td>Final grade</td>
+                    <td></td>
+                    <td>34/45</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     return <>
@@ -128,13 +183,24 @@ export default function Education(){
         <h3>2022-current</h3>
         <div className="flex">
             <div className="image_slider_container">
-                <ImageSlider
-                    width={500}
-                    height={362}
-                    images={twente_images}
-                    showBullets={true}
-                    showNavs={true}
-                />
+                <div className="big_slider">
+                    <ImageSlider
+                        width={500}
+                        height={362}
+                        images={twente_images}
+                        showBullets={true}
+                        showNavs={true}
+                    />
+                </div>
+                <div className="small_slider">
+                    <ImageSlider
+                        width={300}
+                        height={217}
+                        images={twente_images}
+                        showBullets={true}
+                        showNavs={true}
+                    />
+                </div>
             </div>
             <div className="text_container">
                 <p>
@@ -176,13 +242,24 @@ export default function Education(){
                 </p>
             </div>
             <div className="image_slider_container">
-                <ImageSlider
-                    width={500}
-                    height={362}
-                    images={aula_images}
-                    showBullets={true}
-                    showNavs={true}
-                />
+                <div className="big_slider">
+                    <ImageSlider
+                        width={500}
+                        height={362}
+                        images={aula_images}
+                        showBullets={true}
+                        showNavs={true}
+                    />
+                </div>
+                <div className="small_slider">
+                    <ImageSlider
+                        width={300}
+                        height={217}
+                        images={aula_images}
+                        showBullets={true}
+                        showNavs={true}
+                    />
+                </div>
             </div>
         </div>
 

@@ -19,7 +19,7 @@ const PopupInterface: React.FC<PopupProps> = ({ isOpen, onRequestClose, title, c
         <div className="popup_content">
             <div className="header">
                 <img id="back" src={back} alt="back" onClick={onRequestClose}/>
-                <h1 id="title">{title}</h1>
+                <h3 id="title">{title}</h3>
             </div>
             {content}
         </div>
