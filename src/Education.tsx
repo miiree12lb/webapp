@@ -203,11 +203,20 @@ export default function Education(){
                 </div>
             </div>
             <div className="text_container">
+                <h3>Major</h3>
                 <p>
                     I am majoring in Technical Computer Science (TCS) at the University of Twente, in Enschede, The Netherlands.
                     This is a three-year Bachelor's programme that focuses on software engineering and computer science fundamentals 
                     such as algorithms, data structures, networks, web programming, security, etc. Below you can see a table with the 
                     subjects I will take during the degree.
+                </p>
+                <h3>Elective(s)</h3>
+                <p>
+                    
+                </p>
+                <h3>Minor</h3>
+                <p>
+
                 </p>
             </div>
         </div>
@@ -268,14 +277,14 @@ export default function Education(){
                 <h3>Spanish National Baccalaureate</h3>
                 <p>Duration: 2 years</p>
                 <p>Grade: 8.18/10</p>
-                <button className="read_more" onClick={openSpanishBaccalaureatePopup}>Read More</button>
+                <p className="read_more_inline" onClick={openSpanishBaccalaureatePopup}>Read More</p>
             </div>
 
             <div className="content">
                 <h3><a href="https://www.ibo.org/">International Baccalaureate</a></h3>
                 <p>Duration: 2 years</p>
                 <p>Grade: 34/45</p>
-                <button className="read_more" onClick={openInternationalBaccalaureatePopup}>Read More</button>
+                <p className="read_more_inline" onClick={openInternationalBaccalaureatePopup}>Read More</p>
             </div>
         </div>
     </>

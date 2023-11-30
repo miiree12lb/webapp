@@ -56,99 +56,6 @@ export default function Home(){
             the world. In this page you will find information about my interests, education, and experience.
         </p>
 
-        <div className="section" id="travel">
-            <h2>Traveling</h2>
-            <div className="flex">
-                <div className="text_container">
-                    <p>
-                        One of the things I enjoy the most is traveling around the world, to mmet new people, cultures and perspectives to see the
-                        world. I started traveling with my family at a very young age and since them I have had the opportunity to visit more than 20
-                        countries in 3 different continents (Europe, America and Asia).
-                    </p>
-
-                    <p>
-                        I have traveled as a tourist but also as a student to conduct scientific research in the US and in the UK, as well my 
-                        college degree that I am currently studying in the Netherlands. Every single one of these adventures has been very enriching.
-                    </p>
-
-                    <p>
-                        Traveling alone has helped me become much more independent, to take things calmly and put problems into perspective. 
-                        Every scare has become a fun anecdote and a learning experience.
-                    </p>
-
-                    <p>
-                        Thanks to all these trips I have had the opportunity to meet people from all around the world, work with them, 
-                        share our different cultures and ways of understanding the world. Which has helped me be much more open minded.
-                    </p>
-                </div>
-                <div className="image_slider_container">
-                    <div className="big_slider">
-                        <ImageSlider
-                            width={500}
-                            height={362}
-                            images={travel_images}
-                            showBullets={true}
-                            showNavs={true}
-                        />
-                    </div>
-                    <div className="small_slider">
-                        <ImageSlider
-                            width={300}
-                            height={217}
-                            images={travel_images}
-                            showBullets={true}
-                            showNavs={true}
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className="section" id="football">
-            <h2>Football</h2>
-            <div className="flex">
-                <div className="image_slider_container">
-                    <div className="big_slider">
-                        <ImageSlider
-                            width={500}
-                            height={362}
-                            images={football_images}
-                            showBullets={true}
-                            showNavs={true}
-                        />
-                    </div>
-                    <div className="small_slider">
-                        <ImageSlider
-                            width={300}
-                            height={217}
-                            images={football_images}
-                            showBullets={true}
-                            showNavs={true}
-                        />
-                    </div>
-                        
-                </div>
-                <div className="text_container">
-                    <p>
-                        Being active is also very important to me, while growing up, I had the opportunity to try out several sports: Tennis, Basketball, Football, and Padel. 
-                        I also really enjoy walking in the city or hiking in the mountain, breathing fresh air and enjoy nature.
-                    </p>
-
-                    <p>
-                        My favorite sport is football and I played in federated teams for 7 years, in different clubs:
-                        <ul>
-                            <li>Futbol Club Martinenc</li>
-                            <li>Unió Esportiva Sants</li>
-                            <li>Women's Soccer School</li>
-                        </ul>
-                        Being in those teams has taught me the importance of team work, helping each other, being communicative and how to deal with conflict. It has
-                        also allowed me to meet people with similar interests and to make some friends over the years.
-                    </p>
-                </div>
-                
-            </div>
-        </div>
-
         <div className="section" id='science'>
             <h2>Science & Technology</h2>
             <div className="flex">
@@ -187,6 +94,108 @@ export default function Home(){
                             showNavs={true}
                         />
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li><b>Catalan:</b> Native level</li>
+                <li><b>Spanish:</b> Native level</li>
+                <li><b>English:</b> Fluent level</li>
+                <li><b>French:</b> Intermediate level (B2)</li>
+            </ul>
+        </div>
+
+        <div className="section" id="travel">
+            <h2>Traveling</h2>
+            <div className="flex">
+                <div className="image_slider_container">
+                    <div className="big_slider">
+                        <ImageSlider
+                            width={500}
+                            height={362}
+                            images={travel_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                    <div className="small_slider">
+                        <ImageSlider
+                            width={300}
+                            height={217}
+                            images={travel_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                </div>
+                <div className="text_container">
+                    <p>
+                        One of the things I enjoy the most is traveling around the world, to mmet new people, cultures and perspectives to see the
+                        world. I started traveling with my family at a very young age and since them I have had the opportunity to visit more than 20
+                        countries in 3 different continents (Europe, America and Asia).
+                    </p>
+
+                    <p>
+                        I have traveled as a tourist but also as a student to conduct scientific research in the US and in the UK, as well my 
+                        college degree that I am currently studying in the Netherlands. Every single one of these adventures has been very enriching.
+                    </p>
+
+                    <p>
+                        Traveling alone has helped me become much more independent, to take things calmly and put problems into perspective. 
+                        Every scare has become a fun anecdote and a learning experience.
+                    </p>
+
+                    <p>
+                        Thanks to all these trips I have had the opportunity to meet people from all around the world, work with them, 
+                        share our different cultures and ways of understanding the world. Which has helped me be much more open minded.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="section" id="football">
+            <h2>Football</h2>
+            <div className="flex">
+                <div className="text_container">
+                    <p>
+                        Being active is also very important to me, while growing up, I had the opportunity to try out several sports: Tennis, Basketball, Football, and Padel. 
+                        I also really enjoy walking in the city or hiking in the mountain, breathing fresh air and enjoy nature.
+                    </p>
+
+                    <p>
+                        My favorite sport is football and I played in federated teams for 7 years, in different clubs:
+                        <ul>
+                            <li>Futbol Club Martinenc</li>
+                            <li>Unió Esportiva Sants</li>
+                            <li>Women's Soccer School</li>
+                        </ul>
+                        Being in those teams has taught me the importance of team work, helping each other, being communicative and how to deal with conflict. It has
+                        also allowed me to meet people with similar interests and to make some friends over the years.
+                    </p>
+                </div>
+                <div className="image_slider_container">
+                    <div className="big_slider">
+                        <ImageSlider
+                            width={500}
+                            height={362}
+                            images={football_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                    <div className="small_slider">
+                        <ImageSlider
+                            width={300}
+                            height={217}
+                            images={football_images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
+                    </div>
+                        
                 </div>
             </div>
         </div>

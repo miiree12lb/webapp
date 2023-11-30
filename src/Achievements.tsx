@@ -64,7 +64,9 @@ export default function Achievements(){
             they also put on the list several international research centers to which we could apply.
         </p>
         <p>
-            I decided to apply to the ESSYI program and I got selected. The program will take place between July 10 and July 23.
+            I decided to apply to the ESSYI program and I got selected. The program took place between July 10 and July 23 2022. During the first class we attended
+            lectures, and other academic activities. During the second week we had to design a ecolodge, considering the energy consumption, food waste, the location, the 
+            activities around the lodge, a budget, and so on.
         </p>
     </div>
 
@@ -86,14 +88,29 @@ export default function Achievements(){
             In my third summer in the program I had the opportunity to go to the Lady Margaret Hall College at the Univeristy of Oxford.
             There were two different programs, I attended the course <i>'Artificial Intelligence and Machine Learning: Theory and Practice'</i>.
             This was a 3 week program, and each week we attended lectures in the morning, seminars in the afternoon, and there were some organized activities
-            in the evening: ~add some examples :)~. Every week we had to submit an assignment and explain our approach to the tutor in the tutorial.
+            in the evening: karaoke night, some sport, or scotish dancing, among others. Every week we had to submit an assignment and explain our approach to 
+            the tutor in the tutorial.
         </p>
         <p>
-            The grade obtained at the end of the program was an average grade of the 3 assignments submitted. The assignments were about: ~update explanation lol~
+            The grade obtained at the end of the program was an average grade of the 3 assignments submitted. The assignments were about:
             <ol>
-                <li><b>Lineal Regression:</b></li>
-                <li><b>Neural Networks:</b></li>
-                <li><b>Convolutional Neural Networks:</b></li>
+                <li>
+                    <b>Lineal Regression:</b> Let's take a look at whether we can predict the number of bicycle trips across Seattle's Fremont Bridge based 
+                    on weather, season, and other factors. We have a dataset with number of bikers that crossed the bridge on a particular day and some accompanying
+                    data for that day. We will perform a simple linear regression to relate weather and other information to bicycle counts, in order to estimate how 
+                    a change in any one of these parameters affects the number of riders on a given day.
+                </li>
+                <li>
+                    <b>Neural Networks:</b> House price prediction given a dataset containing the following information about the houses: 
+                    whether or not the house has covered parking, size measured in thousands of square meters, and architectural style and location.
+                    To make the prediction we used neural networks.
+                </li>
+                <li>
+                    <b>Convolutional Neural Networks:</b> We will be using CIFAR-10 datasets which is sub-dataset of CIFAR-100 Dataset. The CIFAR-10 dataset consists of 60000 
+                    32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. First, we trained a neural network, 
+                    then a convolutional neural network and finally, fine-tuned a trained model: ResNet18. Finally we compared the accuracy, loss and time per execution of the 
+                    three models.
+                </li>
             </ol>
         </p>
         <p>
@@ -135,7 +152,7 @@ export default function Achievements(){
             the inclination would be the same, since the box is attached to the chair, Thales could be applied, and the same would happen with the tensions, then we know that the 
             relationship between the masses and the tensions of the chair and the box is as follows:
 
-            <BlockMath math="\frac{T_1 \cdot \cos\theta}{m_1 \cdot g} = \frac{T_2 \cdot \cos\theta}{m_2 \cdot g} \implies \frac{T_1}{m_1} = \frac{T_2}{m_2}" />
+            <BlockMath math="\frac{T_1 \cos\theta}{m_1 g} = \frac{T_2 \cos\theta}{m_2 g} \implies \frac{T_1}{m_1} = \frac{T_2}{m_2}" />
         </p>
 
         <h2>Equations</h2>
@@ -143,11 +160,11 @@ export default function Achievements(){
             <li>Distance equation: <InlineMath math="d = L \sin \theta + r" /></li>
             <li>Force equations:
                 <ul>
-                    <li><InlineMath math="T \cdot \cos{\theta} = m \cdot g" /></li>
-                    <li>< InlineMath math="T \cdot \sin{\theta} = \frac{mv^2}{d}" /></li>
+                    <li><InlineMath math="T \cos{\theta} = m g" /></li>
+                    <li>< InlineMath math="T \sin{\theta} = \frac{mv^2}{d}" /></li>
                 </ul>
             </li>
-            <li>Velocity equtions: <InlineMath math="T \sin \theta = \frac{mv^2}{d} \rightarrow dT \sin \theta = mv^2 \rightarrow v = \sqrt{\frac{(L \sin \theta + r)T \sin \theta}{m}}" /></li>
+            <li>Velocity equtions: <InlineMath math="T \sin \theta = \frac{mv^2}{d} \rightarrow d \cdot T \sin \theta = mv^2 \rightarrow v = \sqrt{\frac{(L \sin \theta + r)T \sin \theta}{m}}" /></li>
         </ul>
     </div>
 
@@ -197,7 +214,7 @@ export default function Achievements(){
                         I was one of 12 candidates selected to participate in the program: 'Looking from the Sky: How Does Climate Change 
                         Affect Our Forests?'.
                     </p>
-                    <button className="read_more" onClick={openFirstSummerJic}>Read More</button>
+                    <p className="read_more_inline" onClick={openFirstSummerJic}>Read More</p>
                 </div>
 
                 <div className="content">
@@ -208,7 +225,7 @@ export default function Achievements(){
                         I was 1 of the 46 selected studies into the 2 week summer course in environmental science through scientific, social, 
                         economic, philosophical, ethical, and political perspectives.
                     </p>
-                    <button className="read_more" onClick={openSecondSummerJic}>Read More</button>
+                    <p className="read_more_inline" onClick={openSecondSummerJic}>Read More</p>
                 </div>
 
                 <div className="content">
@@ -217,9 +234,9 @@ export default function Achievements(){
                     <h4>Oxford, UK</h4>
                     <p>
                         This course is designed to introduce students to the basic concepts of machine learning (ML) and artificial 
-						intelligence (AI) in a hands-on manner
+						intelligence (AI) in a hands-on manner.
                     </p>
-                    <button className="read_more" onClick={openThirdSummerJic}>Read More</button>
+                    <p className="read_more_inline" onClick={openThirdSummerJic}>Read More</p>
                 </div>
             </div>
         </div>

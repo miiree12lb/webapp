@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import { HashRouter, Route, Routes} from "react-router-dom";
 import Home from "./Home.tsx";
 import Experience from "./Experience.tsx";
-import Languages from "./Language.tsx";
 import Education from "./Education.tsx";
 import Contact from "./Contact.tsx";
 import Achievements from "./Achievements.tsx";
@@ -29,7 +28,6 @@ function Root() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/experience" element={<Experience />} />
-                    <Route path="/languages" element={<Languages />} />
                     <Route path="/education" element={<Education />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/achievements" element={<Achievements />} />
