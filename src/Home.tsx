@@ -9,9 +9,21 @@ import QuoteSlideshow from "./QuoteSlideshow.tsx";
 // @ts-ignore
 import ny from "./assets/images/travel/ny.png";
 // @ts-ignore
+import ny2 from "./assets/images/travel/ny2.png";
+// @ts-ignore
+import athens from "./assets/images/travel/athens.png";
+// @ts-ignore
 import croatia from "./assets/images/travel/croatia.png";
 // @ts-ignore
 import zagreb from "./assets/images/travel/zagreb.png";
+// @ts-ignore
+import zadar from "./assets/images/travel/zadar.png";
+// @ts-ignore
+import hp from "./assets/images/travel/hp.png";
+// @ts-ignore
+import stonhenge from "./assets/images/travel/stonhenge.png";
+// @ts-ignore
+import rome from "./assets/images/travel/rome.PNG";
 // @ts-ignore
 import pcpp from "./assets/images/memes/c++_python.png";
 // @ts-ignore
@@ -36,7 +48,7 @@ import tech1 from "./assets/images/tech/tech1.png";
 
 
 export default function Home(){
-    const travel_images = [ny, croatia, zagreb];
+    const travel_images = [ny2, stonhenge, zadar, ny, athens, croatia, zagreb, hp, rome];
     const football_images = [foot1, foot2, foot3, foot4];
     const science_images = [tech1];
     const memes = [pcpp, dualitat_patro, forces, identity_matrix, cat];

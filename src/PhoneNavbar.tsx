@@ -13,9 +13,8 @@ export default function PhoneNavbar() {
             <div id="phone_links"  style={checked ? { display: "block" } : { display: "none" }}>
                 <Link to="/">About Me</Link>
                 <Link to="education">Education</Link>
-                <Link to="languages">Languages</Link>
-                <Link to="achievements">Achievements</Link>
                 <Link to="experience">Experience</Link>
+                <Link to="achievements">Achievements</Link>
                 <Link to="contact">Contact Me</Link>
             </div>
             

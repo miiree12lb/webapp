@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.03c2d08c.css",
-    "main.js": "/static/js/main.a187d69b.js",
+    "main.js": "/static/js/main.8c37368d.js",
     "static/media/zagreb.png": "/static/media/zagreb.2afb21bb06ee79afa9fa.png",
+    "static/media/rome.PNG": "/static/media/rome.5e640ac71d964d5a16b2.PNG",
     "static/media/ny.png": "/static/media/ny.bab0877b58dc89731c33.png",
     "static/media/foot1.png": "/static/media/foot1.0dde731c88429dc69da1.png",
     "static/media/ut_me.png": "/static/media/ut_me.3d111dc6355ac6bc4882.png",
@@ -10,10 +11,12 @@
     "static/media/tech1.png": "/static/media/tech1.25538b87acd080233e5e.png",
     "static/media/aula_escuela_europea.png": "/static/media/aula_escuela_europea.5214c020d6f5e805731e.png",
     "static/media/foot2.png": "/static/media/foot2.1cf5e0f08486d3be2188.png",
+    "static/media/hp.png": "/static/media/hp.139b34cca743b27e4f07.png",
     "static/media/ut-tower.png": "/static/media/ut-tower.974db7996bcd9d32b315.png",
     "static/media/ut.png": "/static/media/ut.81b6041c5ebc4543cd38.png",
     "static/media/aula.png": "/static/media/aula.abcf7bb2346552739195.png",
     "static/media/Diploma_Mireia.png": "/static/media/Diploma_Mireia.32b4d2c4517395ecbaeb.png",
+    "static/media/ny2.png": "/static/media/ny2.5373e5efccb01f773a8a.png",
     "static/media/TechMed-Centre-UT.png": "/static/media/TechMed-Centre-UT.17b2ff630d056dc6168a.png",
     "static/media/EM33qcnXsAA8vJi.png": "/static/media/EM33qcnXsAA8vJi.5289009c275ad1c22404.png",
     "static/media/schrodingers_cat.png": "/static/media/schrodingers_cat.245a5f4042c5ed86a63b.png",
@@ -21,8 +24,11 @@
     "static/media/c++_python.png": "/static/media/c++_python.5dd73801eac875febea7.png",
     "static/media/Article.pdf": "/static/media/Article.a65eeb909ce1ca908e8e.pdf",
     "static/media/foot4.png": "/static/media/foot4.e681c616d3450c3495e8.png",
+    "static/media/athens.png": "/static/media/athens.2471ffd25c75b54fd2c9.png",
     "static/media/forces.png": "/static/media/forces.68fa41691c967654551a.png",
     "static/media/dualitat_patro.png": "/static/media/dualitat_patro.96dfeb4a6f070a76607a.png",
+    "static/media/stonhenge.png": "/static/media/stonhenge.22e19748fb1c9cf1a6ea.png",
+    "static/media/zadar.png": "/static/media/zadar.ee965691ccc088e41f56.png",
     "static/media/identityMatrix.png": "/static/media/identityMatrix.132859c213619c0fc092.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -89,10 +95,10 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.3f6d644cac1e5dd5bb4675ccea3d9ff3.svg",
     "main.03c2d08c.css.map": "/static/css/main.03c2d08c.css.map",
-    "main.a187d69b.js.map": "/static/js/main.a187d69b.js.map"
+    "main.8c37368d.js.map": "/static/js/main.8c37368d.js.map"
   },
   "entrypoints": [
     "static/css/main.03c2d08c.css",
-    "static/js/main.a187d69b.js"
+    "static/js/main.8c37368d.js"
   ]
 }
