@@ -17,7 +17,7 @@ const PopupInterface: React.FC<PopupProps> = ({ isOpen, onRequestClose, title, c
     <Modal open={isOpen} onClose={onRequestClose} closeOnDocumentClick={false}>
       <div className="popup_holder">
         <div className="popup_content">
-            <div className="header">
+            <div className="header sticky-header">
                 <img id="back" src={back} alt="back" onClick={onRequestClose}/>
                 <h3 id="title">{title}</h3>
             </div>
